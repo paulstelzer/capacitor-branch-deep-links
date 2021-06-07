@@ -9,6 +9,8 @@ end
 
 target 'Plugin' do
   capacitor_pods
+
+  pod 'Branch', '~> 1.39.2'
 end
 
 target 'PluginTests' do
